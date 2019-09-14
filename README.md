@@ -1,6 +1,6 @@
 # NEIGHLINK
 
-![](https://i.ibb.co/zH2TSQz/WEB-2019-09-14-13-10.png)
+![](https://i.ibb.co/kMNQ7j4/138d6b3a-9571-4026-bc29-700b5af1b394.jpg)
 
 ## TABLA DE CONTENIDO
 1. [DESCRIPCIÓN DE LA STARTUP](#descripción-de-la-startup)
