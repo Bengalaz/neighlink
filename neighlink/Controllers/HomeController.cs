@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace neighlink.Controllers
+namespace Neighlink.Controllers
 {
     public class HomeController : Controller
     {
