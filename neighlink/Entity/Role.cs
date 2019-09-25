@@ -1,18 +1,12 @@
-﻿using System;
+﻿using Entity.Contracts;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace Entity
 {
-    public class Role
+    public class Role : BaseEntity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-        public string Name { get; set; }
         public string Description { get; set; }
-        public bool Status { get; set; }
+        public UserRole Type { get; set; }
+        public virtual ICollection<User> Users { get; set; }
     }
 }

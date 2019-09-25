@@ -6,13 +6,13 @@ using System.Text;
 
 namespace Entity
 {
-    public class Condominium
+    public class Condominium : BaseEntity
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public string Address { get; set; }
         public virtual ICollection<Building> Buildings { get; set; }
+        public string Name { get; set; }
+        public string PhotoUrl { get; set; }
         public virtual ICollection<Role> Roles { get; set; }
+        public string SecretCode { get; set; }
     }
 }
